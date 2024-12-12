@@ -1,42 +1,90 @@
-body{
-  background-color:red;
-}
-h1{
-   text-align:center;
-}
-h2{
-   text-align:center;
-}
-h3{
-   text-align:center;
+/* General styling */
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#wrapper{
-  width: 80;
-  margin:auto;
-  background-color:blue;
-  box-shadow:10px 10px;
+h1, h2, h3 {
+    text-align: center;
 }
-div{
-  width:90;
-  margin:auto;
+
+/* Wrapper styling */
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
-.itembox{
-  border: 3px solid green;
-  box-shadow:10px 10px;
-  color:brown;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-  
+
+/* Div styling */
+div {
+    width: 90%;
+    margin: auto;
 }
-.favorite{
-  border: 27px solid purple;
-  background-color: orange;
-  color: pink;
+
+/* Itembox class styling */
+.itembox {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #e3f2fd; /* Light blue background */
+    color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
 }
-ol li{
-  background-color:pink;
-  border:8px solid orange;
+
+/* Favorite class styling */
+.favorite {
+    border: 2px solid #ff6f61; /* Different border color */
+    background-color: #ffebee; /* Light red background */
+    color: #d32f2f; /* Dark red text */
 }
+
+/* List styling */
+ul, ol {
+    background-color: #e8f5e9; /* Light green background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: square; /* Square bullet points */
+}
+
+ol {
+    list-style-type: decimal; /* Numbered list */
+}
+
+/* Navbar styling */
+nav {
+    background-color: #1976d2; /* Blue background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Return to top link styling */
+.return-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1976d2;
+}
+
+.return-to-top:hover {
+    text-decoration: underline;
+}
+
