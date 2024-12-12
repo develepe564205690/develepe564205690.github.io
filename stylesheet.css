@@ -1,0 +1,42 @@
+body{
+  background-color:red;
+}
+h1{
+   text-align:center;
+}
+h2{
+   text-align:center;
+}
+h3{
+   text-align:center;
+}
+
+#wrapper{
+  width: 80;
+  margin:auto;
+  background-color:blue;
+  box-shadow:10px 10px;
+}
+div{
+  width:90;
+  margin:auto;
+}
+.itembox{
+  border: 3px solid green;
+  box-shadow:10px 10px;
+  color:brown;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  
+}
+.favorite{
+  border: 27px solid purple;
+  background-color: orange;
+  color: pink;
+}
+ol li{
+  background-color:pink;
+  border:8px solid orange;
+}
